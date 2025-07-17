@@ -19,7 +19,7 @@
     .burger-button__line {
       &:first-child {
         rotate: 45deg;
-        transform-origin: none;
+        transform-origin: 0;
         translate: 0.25em -0.1em;
       };
 
@@ -41,7 +41,7 @@
     transition-duration: var(--transition-duration);
 
     &:last-child {
-      align-self: flex-end;
+      align-self: end;
       width: 55%;
     };
   };
