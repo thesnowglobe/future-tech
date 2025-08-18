@@ -27,6 +27,7 @@
 @use 'blocks/blog-card';
 @use 'blocks/person-card';
 @use 'blocks/blog-actions';
+@use 'blocks/blog-details';
 @use 'blocks/download-info';
 @use 'blocks/bordered-grid';
 @use 'blocks/review-card';
@@ -37,3 +38,12 @@
 @use 'blocks/news-card';
 @use 'blocks/video-player';
 @use 'blocks/video-card';
+@use 'blocks/field';
+@use 'blocks/checkbox';
+@use 'blocks/select';
+@use 'blocks/contacts';
+@use 'blocks/feedback-form';
+@use 'blocks/report-card';
+@use 'blocks/contacts-card';
+@use 'blocks/accordion';
+@use 'blocks/accordion-group';
